@@ -1,0 +1,29 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.saffron {
+  color: #FF9933; /* Saffron color */
+}
+
+.white {
+  color: #FFFFFF; /* White color */
+}
+
+.green {
+  color: #138808; /* Green color */
+}
+
+/* Optional: Add styles for the <h1> tag */
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
