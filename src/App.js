@@ -1,24 +1,15 @@
-function createConfetti() {
-  const confettis = [];
-  for (let i = 0; i < 50; i++) {
-    confettis.push(<div className="confetti" key={i}></div>);
-  }
-  return confettis;
-}
+import './App.css';
 
 function App() {
   return (
-    <div>
-      {createConfetti()}
-      <h1>
-        <span className="yellow">Advance</span><br/>
-        <span className="saffron">HAPPY</span><br/>
-        <span className="white">INDEPENDENCE</span><br/>
-        <span className="green">DAY</span><br/>
-        <span className="rose">77th Independence Day</span><br/>
-        <span className="red">Jai Hind</span>
-      </h1>
-    </div>
+    <h1>
+      <spam className="yellow">Advance</spam><br/>
+      <span className="saffron">HAPPY</span><br/>
+      <span className="white">INDEPENDENCE</span><br/>
+      <span className="green">DAY</span><br/>
+      <spam className="rose">77th Independence Day</spam><br/>
+      <spam className="red">Jai Hind</spam>
+    </h1>
   );
 }
 
