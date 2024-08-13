@@ -7,7 +7,7 @@ function App() {
       <span className="saffron">HAPPY</span><br/>
       <span className="white">INDEPENDENCE</span><br/>
       <span className="green">DAY</span><br/>
-      <spam className="rose">77th independence day</spam><br/>
+      <spam className="rose">77th Independence Day</spam><br/>
       <spam className="red">Jai Hind</spam>
     </h1>
   );
