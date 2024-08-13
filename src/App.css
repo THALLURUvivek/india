@@ -10,7 +10,7 @@ body {
 
 
 }
-.white {
+.yellow {
   color:yellow;
 }
 
@@ -30,7 +30,6 @@ body {
   color: blue;
 }
 
-/* Optional: Add styles for the <h1> tag */
 h1 {
   font-size: 48px;
   font-weight: bold;
