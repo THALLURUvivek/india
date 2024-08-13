@@ -3,11 +3,10 @@ import './App.css';
 function App() {
   return (
     <h1>
-      <span className="saffron">I</span>
-      <span className="white">N</span>
-      <span className="green">D</span>
-      <span className="saffron">I</span>
-      <span className="white">A</span>
+      <span className="saffron">HAPPY</span><br/>
+      <span className="white">INDEPENDENCE</span><br/>
+      <span className="green">DAY</span>
+      
     </h1>
   );
 }
