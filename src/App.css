@@ -1,39 +1,73 @@
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: black;
-  margin: 0;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-
-
-}
-.yellow {
-  color:yellow;
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
 }
 
-.saffron {
-  color: #FF9933; /* Saffron color */
+.confetti {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background-color: #FF9933; /* Default to saffron */
+  top: -10px;
+  animation: fall 3s infinite ease-in-out;
+  z-index: 1;
 }
 
-.white {
-  color: #FFFFFF; /* White color */
+.confetti:nth-child(odd) {
+  background-color: #FFFFFF; /* White */
 }
 
-.green {
-  color: #138808; /* Green color */
+.confetti:nth-child(even) {
+  background-color: #138808; /* Green */
 }
 
-.red {
-  color: red;
-}
-.rose{
-  color: purple;
+.confetti:nth-child(3n) {
+  left: 10%;
+  animation-duration: 2.5s;
 }
 
-h1 {
-  font-size: 48px;
-  font-weight: bold;
+.confetti:nth-child(4n) {
+  left: 20%;
+  animation-duration: 3.5s;
+}
+
+.confetti:nth-child(5n) {
+  left: 30%;
+  animation-duration: 4s;
+}
+
+.confetti:nth-child(6n) {
+  left: 40%;
+  animation-duration: 3s;
+}
+
+.confetti:nth-child(7n) {
+  left: 50%;
+  animation-duration: 2s;
+}
+
+.confetti:nth-child(8n) {
+  left: 60%;
+  animation-duration: 2.7s;
+}
+
+.confetti:nth-child(9n) {
+  left: 70%;
+  animation-duration: 3.3s;
+}
+
+.confetti:nth-child(10n) {
+  left: 80%;
+  animation-duration: 4.1s;
+}
+
+.confetti:nth-child(11n) {
+  left: 90%;
+  animation-duration: 2.8s;
 }
