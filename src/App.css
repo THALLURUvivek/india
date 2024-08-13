@@ -22,6 +22,10 @@ body {
   color: #138808; /* Green color */
 }
 
+.blue {
+  color: blue;
+}
+
 /* Optional: Add styles for the <h1> tag */
 h1 {
   font-size: 48px;
